@@ -1,2 +1,2 @@
 # Curso HTML - CSS
- Curso completo da plataforma curso em video!
+ Material completo do curso de 5 modulos de HTML e CSS da plataforma curso em video!
