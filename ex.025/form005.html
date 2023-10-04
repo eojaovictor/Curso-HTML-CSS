@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <p>Cadastro</p>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome"> 
+            <label for="inasc">Nascimento:</label>
+            <input type="text" name="nasc" id="inasc"><br>
+            <hr>
+            <label for="irg">RG:</label>
+            <input type="text" name="rg" id="irg">
+            <label for="icpf">CPF:</label>
+            <input type="text" name="cpf" id="icpf">
+        </fieldset>
+       
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="iesexo" checked> <label for="iesexo">Masculino</label> <br>
+        
+            <input type="radio" name="sexo" id="iessexo" > <label for="iesexo">Feminino</label> <br>
+
+        </fieldset>
+       <fieldset>
+        <legend>Esportes Favoritos</legend>
+        <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">Futebol</label> <br>
+        <input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas">Basquete</label> <br>
+        <input type="checkbox" name="esvol" id="iesvol"> <label for="iesvol">Volei</label> <br>
+        <input type="checkbox" name="esbox" id="iesbox"> <label for="iesbox">Box</label> <br>
+       </fieldset>
+       
+        <P>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+
+        </P>
+
+    </form>
+    <p><a href="form006.html">Link</a></p>
+</body>
+</html>

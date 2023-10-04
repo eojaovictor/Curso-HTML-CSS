@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="icon if">
+    <style>
+        body {
+            background-color: rgb(189, 224, 213);
+        }
+        mark {
+            background-color: aqua;
+        }
+    </style>
+    <title>Mídias em HTML%</title>
+</head>
+
+    <body>
+        <h1>Imagem Dinâmica</h1>
+        <p><mark>Tente</mark> abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador
+        </p>
+        <picture>
+              <!-- tem que ser na ordem (Menor, Média, Grande)-->
+            <source media="(max-width: 750px)" srcset="imagens/fotoo-p.png" type="image/png"> <!-- Tam P-->
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">`<!-- Tam M-->
+            <img src="Imagens/foto-G.png" alt="Imagem flexivel"> <!-- Tam G-->
+        </picture>
+        <h1>Reproduzindo Aúdio</h1>
+        <p>Vamos aprender a reproduzir áudio em HTML5</p>
+        <audio src="midia/mpthreetest.mp3" controls autoplay></audio>
+        <audio>
+            <source src="midia/mpthreetest.mp3" type="audio/mpeg">
+            <source src="midia/mpthreetest.ogg" type="audio/ogg">
+            <source src="midia/mpthreetest.wav" type="audio/wav">
+        </audio>
+        <p>Infelizmente seu navegador não consegue reproduzir o audio. <link rel="stylesheet" href="https://edisciplinas.usp.br/mod/resource/view.php?id=2819557"> Clique aqui para Baixar o Arquivo MP3</p>
+ </body>
+</html>
+
+
+    

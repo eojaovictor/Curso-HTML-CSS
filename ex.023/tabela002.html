@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        caption {
+            width: 500px;
+            border-collapse: collapse;
+            background-color: grey;
+            border: 1px solid black;
+            padding: 10px;
+            color: white;
+            font-size: 1.5em;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead {
+            background-color: black;
+            color: white;
+        }
+        tfoot {
+            background-color: black;
+            color: white;
+        }
+        thead  {
+          position: sticky;
+          top: -1px;
+         }
+        tbody > tr:nth-child(2n) {
+            background-color: lightgrey;
+        }
+        td.num {
+            text-align: right;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!--
+        ANATOMIA  PARA TABELAS GRANDES
+        TABLE 
+           THEAD
+              TR, TD, TH
+           TBODY
+              TR, TD, TH
+            TFOOT
+              TR, TD, TH
+    -->
+    <Table> 
+        <caption> População das Unidades Federativas</caption>    
+        <thead>
+            <tr> 
+                <td scape ="col" > Estado</td>
+                <td scape ="col" style="width: 50px;"> População</td>
+            </tr>
+
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                 <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                 <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td> Pará</td>
+                <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                 <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                 <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td> Pará</td>
+                <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                 <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                 <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td> Pará</td>
+                <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                 <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                 <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                 <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                 <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td> Rio de Janeiro</td>
+                <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                 <td class="num">495.589.000</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                 <td class="num">495.589.000</td>
+            </tr>
+            
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td scape="ROW">Total de Habitantes</td>
+                <td><strong class="num">156 565 000</strong></td>
+            </tr>
+
+        </tfoot>
+        <table>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Fugit quod numquam, labore magni eveniet incidunt veritatis
+                dolore accusamus? Excepturi fuga sunt amet, aspernatur deleniti
+                rerum dolore vero velit aperiam! Animi? Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Magnam dolorum ipsam est provident aperiam
+                beatae molestias rerum illum ratione magni, deleniti repellat. Voluptates
+                autem quo unde quia illum, quaerat hic! lorem] Lorem ipsum dolor sit amet
+                consectetur, adipisicing elit. Voluptatem explicabo harum dolor alias?
+                Voluptatibus quasi nihil sint quam autem laborum. Unde natus corporis 
+                aperiam reprehenderit animi voluptas nemo debitis ut? Lorem, ipsum dolor
+                sit amet consectetur adipisicing elit. Quia, vitae? Commodi blanditiis,
+                obcaecati voluptatibus sapiente necessitatibus accusamus aspernatur 
+                aperiam ipsum odit quia facere est quidem quasi eos expedita a magni.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident 
+                fuga necessitatibus quas magni quae itaque officia velit ut, earum
+                suscipit recusandae minima reiciendis dolores! Dolorem repudiandae
+                deserunt non rem illo.</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugit quod numquam, labore magni eveniet incidunt veritatis
+                   dolore accusamus? Excepturi fuga sunt amet, aspernatur deleniti
+                   rerum dolore vero velit aperiam! Animi? Lorem, ipsum dolor sit amet
+                   consectetur adipisicing elit. Magnam dolorum ipsam est provident aperiam
+                   beatae molestias rerum illum ratione magni, deleniti repellat. Voluptates
+                   autem quo unde quia illum, quaerat hic! lorem] Lorem ipsum dolor sit amet
+                   consectetur, adipisicing elit. Voluptatem explicabo harum dolor alias?
+                   Voluptatibus quasi nihil sint quam autem laborum. Unde natus corporis 
+                   aperiam reprehenderit animi voluptas nemo debitis ut? Lorem, ipsum dolor
+                   sit amet consectetur adipisicing elit. Quia, vitae? Commodi blanditiis,
+                   obcaecati voluptatibus sapiente necessitatibus accusamus aspernatur 
+                   aperiam ipsum odit quia facere est quidem quasi eos expedita a magni.
+                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident 
+                   fuga necessitatibus quas magni quae itaque officia velit ut, earum
+                   suscipit recusandae minima reiciendis dolores! Dolorem repudiandae
+                   deserunt non rem illo.</p>
+                   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugit quod numquam, labore magni eveniet incidunt veritatis
+                   dolore accusamus? Excepturi fuga sunt amet, aspernatur deleniti
+                   rerum dolore vero velit aperiam! Animi? Lorem, ipsum dolor sit amet
+                   consectetur adipisicing elit. Magnam dolorum ipsam est provident aperiam
+                   beatae molestias rerum illum ratione magni, deleniti repellat. Voluptates
+                   autem quo unde quia illum, quaerat hic! lorem] Lorem ipsum dolor sit amet
+                   consectetur, adipisicing elit. Voluptatem explicabo harum dolor alias?
+                   Voluptatibus quasi nihil sint quam autem laborum. Unde natus corporis 
+                   aperiam reprehenderit animi voluptas nemo debitis ut? Lorem, ipsum dolor
+                   sit amet consectetur adipisicing elit. Quia, vitae? Commodi blanditiis,
+                   obcaecati voluptatibus sapiente necessitatibus accusamus aspernatur 
+                   aperiam ipsum odit quia facere est quidem quasi eos expedita a magni.
+                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident 
+                   fuga necessitatibus quas magni quae itaque officia velit ut, earum
+                   suscipit recusandae minima reiciendis dolores! Dolorem repudiandae
+                   deserunt non rem illo.</p>
+                   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugit quod numquam, labore magni eveniet incidunt veritatis
+                   dolore accusamus? Excepturi fuga sunt amet, aspernatur deleniti
+                   rerum dolore vero velit aperiam! Animi? Lorem, ipsum dolor sit amet
+                   consectetur adipisicing elit. Magnam dolorum ipsam est provident aperiam
+                   beatae molestias rerum illum ratione magni, deleniti repellat. Voluptates
+                   autem quo unde quia illum, quaerat hic! lorem] Lorem ipsum dolor sit amet
+                   consectetur, adipisicing elit. Voluptatem explicabo harum dolor alias?
+                   Voluptatibus quasi nihil sint quam autem laborum. Unde natus corporis 
+                   aperiam reprehenderit animi voluptas nemo debitis ut? Lorem, ipsum dolor
+                   sit amet consectetur adipisicing elit. Quia, vitae? Commodi blanditiis,
+                   obcaecati voluptatibus sapiente necessitatibus accusamus aspernatur 
+                   aperiam ipsum odit quia facere est quidem quasi eos expedita a magni.
+                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident 
+                   fuga necessitatibus quas magni quae itaque officia velit ut, earum
+                   suscipit recusandae minima reiciendis dolores! Dolorem repudiandae
+                   deserunt non rem illo.</p>
+                   <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugit quod numquam, labore magni eveniet incidunt veritatis
+                   dolore accusamus? Excepturi fuga sunt amet, aspernatur deleniti
+                   rerum dolore vero velit aperiam! Animi? Lorem, ipsum dolor sit amet
+                   consectetur adipisicing elit. Magnam dolorum ipsam est provident aperiam
+                   beatae molestias rerum illum ratione magni, deleniti repellat. Voluptates
+                   autem quo unde quia illum, quaerat hic! lorem] Lorem ipsum dolor sit amet
+                   consectetur, adipisicing elit. Voluptatem explicabo harum dolor alias?
+                   Voluptatibus quasi nihil sint quam autem laborum. Unde natus corporis 
+                   aperiam reprehenderit animi voluptas nemo debitis ut? Lorem, ipsum dolor
+                   sit amet consectetur adipisicing elit. Quia, vitae? Commodi blanditiis,
+                   obcaecati voluptatibus sapiente necessitatibus accusamus aspernatur 
+                   aperiam ipsum odit quia facere est quidem quasi eos expedita a magni.
+                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident 
+                   fuga necessitatibus quas magni quae itaque officia velit ut, earum
+                   suscipit recusandae minima reiciendis dolores! Dolorem repudiandae
+                   deserunt non rem illo.</p>
+        </table>
+
+    </TABle>
+</body>
+</html>

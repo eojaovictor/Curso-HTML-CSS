@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(191, 245, 227);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+   color: black;
+}
+h1#principal {
+    text-align: center;
+    background-color: rgb(85, 83, 83);
+    text-decoration: underline;
+    font-style: italic;
+    color: white;
+}
+
+.basico{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.secundario {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+.terciario {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.intermediario{  
+
+}
+
+.avançado{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.secundario {
+ 
+}
+
+h2 {
+    color: rgb(6, 116, 52);
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="img IF">
+    <style>
+        body {
+            background-color: rgb(243, 233, 221);
+        }
+    </style>
+    <title>Videos com HTML %</title>
+</head>
+<body>
+    <h1>Inserido videos hospedados localmente</h1>
+    <p>Este video está hospedado no meu próprio servidor</p>
+    <video src="midia/videoLEVEtesteruz-9130066 (2).mp4" width="500" controls></video>
+    
+    <video width="500" poster="midia/poster-natureza-teste.jpg" controls autoplay loop> 
+        <source src="midia/videoLEVEtesteruz-9130066 (2).mp4" type="video/mp4"> <!-- primeira opção de reprodução -->
+        <source src="midia/videoLEVE_OGV_testeruz-9130066-_2_.ogv" type="video/ogg"> <!-- segunda opção de reprodução e assim por diante -->
+        <p>Seu navegador não tem compatibildae com a reprodução de videos.</p> <!-- se nenhuma opção for compativél irá aparecer essa mensagem -->
+    </video>
+    <h1>Inserindo videos do YouTube</h1>
+    <iframe width="1000" height="500" src="https://www.youtube.com/embed/mCutqicKuGk?start=58" title="YouTube video player"
+     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+     allowfullscreen></iframe>
+</body>
+</html>
